@@ -31,22 +31,42 @@ public class IncredibleCalculator {
     }
 
     public static int suma(int a, int b) {
+        System.out.println("di primer numero");
+        int a=leerEnteroEntrada();
+        System.out.println("di segundo numero");
+        int b=leerEnteroEntrada();
         return a + b;
     }
 
     public static int resta(int a, int b) {
+        System.out.println("di el mayor numero");
+          int a=leerEnteroEntrada();
+          System.out.println("di el menor numero");
+        int b=leerEnteroEntrada();
         return a - b;
     }
 
     public static int multiplicacion(int a, int b) {
+        System.out.println("di primer numero");
+          int a=leerEnteroEntrada();
+          System.out.println("di el segundo numero");
+        int b=leerEnteroEntrada();
         return a * b;
     }
 
     public static int divisionEntera(int a, int b) {
+        System.out.println("di el mayor numero");
+          int a=leerEnteroEntrada();
+          System.out.println("di el menor numero");
+        int b=leerEnteroEntrada();
         return a / b;
     }
 
     public static double divisionConDecimales(int a, int b) {
+          System.out.println("di el mayor numero");
+          int a=leerEnteroEntrada();
+          System.out.println("di el menor numero");
+        int b=leerEnteroEntrada();
         return a / (b * 1.0);
     }
 
